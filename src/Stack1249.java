@@ -10,7 +10,7 @@ public class Stack1249 {
                 stack.push(i);
             } else if (chars[i]==')') {
                 if(!stack.isEmpty()){
-                    chars[i]='*'
+                    chars[i]='*';
                 }
                 else{
                     stack.pop();

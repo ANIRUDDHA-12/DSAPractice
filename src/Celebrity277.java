@@ -1,6 +1,6 @@
 public class Celebrity277 {
     public int celebrity(int [][] matrix){
-        int n = mat.length;
+        int n = matrix.length;
         int top = 0;
         int down = n - 1;
 
