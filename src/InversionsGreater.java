@@ -54,4 +54,15 @@ public class InversionsGreater {
         if(nums==null || nums.length==0) return 0;
         return mergeSort(nums,0,nums.length-1);
     }
+
+    public static void main(String [] args){
+        InversionsGreater solver=new InversionsGreater();
+
+        int[] nums1 = {1, 3, 2, 3, 1};
+        System.out.println("the output for it is"+solver.inversionsGreater(nums1));
+
+        int[] nums2 = {2, 4, 3, 5, 1};
+        System.out.println("the output for it is"+solver.inversionsGreater(nums2));
+
+    }
 }

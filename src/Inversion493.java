@@ -29,6 +29,9 @@ public class Inversion493 {
                 right++;
             }
         }
+        for(int i=low;i<=high;i++){
+            arr[i]=ans.get(i-low);
+        }
         return count;
     }
     private int mergeSort(int [] arr,int low,int high){
