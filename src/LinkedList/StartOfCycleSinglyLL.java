@@ -1,6 +1,15 @@
 package LinkedList;
 
 public class StartOfCycleSinglyLL {
+    static class ListNode{
+        int data;
+        ListNode next;
+
+
+        public ListNode(int data) {
+            this.data = data;
+        }
+    }
     public ListNode detectCycle(ListNode head) {
         ListNode fast=head;
         ListNode slow=head;
